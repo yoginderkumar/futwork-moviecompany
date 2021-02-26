@@ -1,0 +1,35 @@
+.ant-input-affix-wrapper > input.ant-input {
+    background-color: #525252 !important;
+    color: white !important;
+    font-size: 20px !important;
+}
+
+.contentContainer {
+    display: flex;
+    padding: 80px 50px;
+    background: #303030;
+    justify-content: space-between;
+}
+
+.genreTab {
+    width: 140px;
+    padding: 10px;
+    cursor: pointer;
+    border-radius: 2px;
+    margin-bottom: 1px;
+    background: #525252; 
+}
+
+.searchIcon {
+    color: white;
+    font-size: 20px;
+    margin-right: 4px;
+}
+
+.searchInput {
+    border: none;
+    height: 45px;
+    border-radius:  5px;
+    background: #525252;
+    border-bottom: 2px solid red;
+}
