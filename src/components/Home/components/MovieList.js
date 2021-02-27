@@ -6,7 +6,7 @@ import { MovieCard } from '.';
 
 export default ({movies, search, handleSearch, onToggleFavorite}) => {
     return(
-        <div style={{width: '88%', marginTop: 20}}>
+        <div style={{width: '85%', marginTop: 20}}>
            <h2 style={{fontSize: 18, color: '#a9a9a9'}}>Search Movie</h2>
             <Input value={search} onChange={handleSearch} placeholder='Search...' prefix={<SearchOutlined className='searchIcon' />} className='searchInput' />
             <div style={{margin: '20px 0px', fontSize: 14, color: '#a9a9a9'}}>{movies.length} movies found.</div>
