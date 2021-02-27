@@ -27,7 +27,7 @@ export default () => {
             filterOnGenre();
             setIsFilterGenre(false)
         }
-    }, [genres])
+    }, [isFilterGenre])
 
     //When we want filter data on searchbar
     useEffect(() => {
